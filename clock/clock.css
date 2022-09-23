@@ -1,0 +1,59 @@
+#h{
+    background-color: #f2f6f7;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 400;
+    color: rgb(5, 102, 70);
+    font-size: large;
+}
+
+h2{
+    letter-spacing:1rem;
+}
+#m{
+    background-color: #f2f6f7;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(5, 102, 70);
+    font-weight: 400;
+    font-size: large;
+}
+#a{
+    background-color: #f2f6f7;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(5, 102, 70);
+    font-weight: 400;
+    font-size: large;
+}
+
+#s{
+    background-color: #f2f6f7;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: large;
+    color: rgb(5, 102, 70);
+}
+#a{
+    font-weight: 400;
+    color: rgb(5, 102, 70);
+    font-size: large;
+}
+.h1{
+    height: 100vh;
+}
+.c1{
+    position: relative;
+}
+.c1::after{
+    position: absolute;
+    content: ":";
+    right: -5%;
+    font-weight: 300;
+    top:10px;
+}
+.c1:last-child::after{
+    content: "";
+    position: absolute;
+}
